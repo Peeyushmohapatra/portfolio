@@ -1,0 +1,159 @@
+.education {
+  height: 93%;
+  width: 100%;
+  background-image: url(../../Image/Education.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.innerEducation {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.educationContainer {
+  height: 60%;
+  width: 60%;
+  /* box-shadow: rgb(167, 17, 17) 0px 2px 4px, rgb(167, 17, 16) 0px 7px 13px -3px, rgb(167, 17, 15) 0px -3px 0px inset; */
+  box-shadow: 0px 1px 2px 0px rgb(77, 75, 75), 1px 2px 4px 0px rgb(77, 75, 75),
+    2px 4px 8px 0px rgb(77, 75, 75), 2px 4px 16px 0px rgb(77, 75, 75);
+}
+
+.upperContainer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  color: white;
+  border-bottom: 2px solid red;
+}
+
+/* .upperContainer ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+} */
+
+.institute {
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 1.8rem; */
+  font-size: 1.2rem;
+  font-weight: bolder;
+  /* background: -webkit-linear-gradient(rgb(5, 97, 155), rgb(1, 221, 150)); */
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-color: #4158d0;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.board {
+  list-style: none;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-color: #4158d0;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.percentage {
+  list-style: none;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-color: #4158d0;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.passout {
+  list-style: none;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 4px;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-color: #4158d0;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.educationDetails {
+  height: 90%;
+  width: 100%;
+}
+
+.higherEducation {
+  height: calc(100% / 3);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-bottom: 2px solid red;
+}
+
+.mainContainer {
+  font-size: 1rem;
+  background-color: #ffdee9;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+
+  font-weight: 900;
+}
+
+.instituteName {
+  text-align: center;
+}

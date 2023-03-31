@@ -1,0 +1,187 @@
+.skills {
+  height: 93%;
+  width: 100%;
+  background-color: rgb(25, 25, 25);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trials {
+  border-radius: 11% 89% 100% 0% / 100% 0% 100% 0%;
+  height: 70%;
+  right: 7%;
+  bottom: 4%;
+}
+
+.rectangle {
+  height: 80%;
+  width: 75%;
+  position: relative;
+  display: flex;
+}
+
+.one {
+  left: 3%;
+  top: 0;
+
+  border-radius: 15px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.two {
+  left: 27%;
+  top: 0;
+
+  border-radius: 15px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.three {
+  left: 52%;
+  top: 0;
+
+  border-radius: 15px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.four {
+  top: 0%;
+  left: 77%;
+  border-radius: 15px;
+
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.five {
+  top: 26.5%;
+  left: 15%;
+  border-radius: 15px;
+
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.six {
+  top: 26.5%;
+  left: 40%;
+
+  border-radius: 15px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.seven {
+  top: 26.5%;
+  left: 65%;
+
+  border-radius: 15px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.eight {
+  top: 53%;
+  left: 30%;
+  border-radius: 15px;
+
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.nine {
+  top: 53%;
+  left: 55%;
+
+  border-radius: 15px;
+
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.ten {
+  bottom: 0;
+  left: 40%;
+  background-color: #ffdee9;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+  border-radius: 15px;
+}
+
+.box img {
+  height: 80%;
+  width: 40%;
+}
+
+.box {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxx {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css {
+  height: 70%;
+  width: 25%;
+}
+
+.html {
+  height: 70%;
+  width: 35%;
+}
+
+.react {
+  height: 70%;
+  width: 30%;
+}
+
+.sql {
+  height: 70%;
+  width: 30%;
+}

@@ -1,0 +1,36 @@
+.navbar {
+  height: 7%;
+  width: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  background-color: rgb(25, 25, 25);
+  color: rgb(87, 97, 115);
+}
+
+.leftBar {
+  height: 100%;
+  width: 40%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.rightBar {
+  height: 100%;
+  width: 60%;
+}
+
+.rightBar ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightBar ul li {
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+}

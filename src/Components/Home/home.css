@@ -1,0 +1,85 @@
+.home {
+  height: 93%;
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.dataContainer {
+  height: 80%;
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.leftContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightContainer {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 7rem 0;
+  justify-content: space-around;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.trial {
+  position: absolute;
+  height: 80%;
+  width: 25%;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  background-color: rgb(43, 44, 46);
+  right: 0;
+  bottom: 0;
+}
+
+.pTag {
+  /* color: linear-gradient(white,green); */
+  /* background-color:; */
+  color: white;
+  font-size: 1.4rem;
+  background: -webkit-linear-gradient(rgb(5, 97, 155), rgb(1, 221, 150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.iconContainer {
+  height: 19%;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconContainer a {
+  cursor: pointer;
+  color: rgb(64, 69, 81);
+
+}
+
+.fa-brands {
+  font-size: larger;
+}
