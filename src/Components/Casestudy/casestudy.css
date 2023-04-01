@@ -1,0 +1,116 @@
+.lastPhaseContainer {
+  width: 100%;
+  height: 93%;
+  background-color: rgb(25, 25, 25);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.style {
+  border-radius: 100% 0% 0% 100% / 50% 50% 50% 50%;
+}
+
+.stylee {
+  border-radius: 0% 100% 100% 0% / 100% 50% 50% 0%;
+  left: 0;
+}
+
+.techUsed {
+  position: relative;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+.techUsed p {
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3rem;
+
+}
+
+.techUsed li {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
+
+}
+
+.aboutProject {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* width: 90%; */
+  justify-content: flex-start;
+}
+
+.aboutProject p{
+    text-align: start;
+    background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.aboutProject li{
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+.projectHeading {
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+

@@ -1,0 +1,121 @@
+.projectDetails {
+  position: relative;
+  height: 500px;
+  width: 80%;
+  display: flex;
+  /* border: 2px solid gray; */
+  border-radius: 15px;
+}
+
+.leftContainerr {
+  height: 100%;
+  width: 50%;
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* box-shadow: gray 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+  border-radius: 15px;
+}
+
+.rightContainerr {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  right: 9%;
+  top: 0;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.rightContainerr img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.stackContainer {
+  height: 10%;
+  width: 15%;
+  position: absolute;
+  bottom: 4%;
+  left: 35%;
+  display: flex;
+  padding: 4px 2px;
+  justify-content: space-around;
+}
+
+.textContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.textContainer h2 {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textContainer p {
+  color: rgb(87, 97, 115);
+
+}
+
+.buttonContainer {
+  width: 80%;
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonOne {
+  height: 80%;
+  width: 30%;
+}
+
+.buttonTwo {
+  height: 80%;
+  width: 30%;
+}
+
+.buttonOne button {
+  height: 80%;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+color: rgb(87, 97, 115);
+font-weight: 700;
+cursor: pointer;
+
+}
+.buttonTwo button {
+  height: 80%;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+color: rgb(87, 97, 115);
+
+font-weight: 700;
+cursor: pointer;
+}
+
+.buttonThree {
+  height: 70%;
+  width: 15%;
+  border-radius: 50%;
+  border: none;
+}

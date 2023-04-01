@@ -11,7 +11,7 @@
 .trials {
   border-radius: 11% 89% 100% 0% / 100% 0% 100% 0%;
   height: 70%;
-  right: 7%;
+  right: 0%;
   bottom: 4%;
 }
 
@@ -25,13 +25,10 @@
 .one {
   left: 3%;
   top: 0;
+  background-color: rgb(43, 44, 46);
 
   border-radius: 15px;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background: transparent;
 }
 
 .two {
@@ -39,11 +36,7 @@
   top: 0;
 
   border-radius: 15px;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .three {
@@ -51,23 +44,14 @@
   top: 0;
 
   border-radius: 15px;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .four {
   top: 0%;
   left: 77%;
   border-radius: 15px;
-
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .five {
@@ -75,11 +59,7 @@
   left: 15%;
   border-radius: 15px;
 
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .six {
@@ -87,23 +67,15 @@
   left: 40%;
 
   border-radius: 15px;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .seven {
   top: 26.5%;
   left: 65%;
-
+  position: relative;
   border-radius: 15px;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .eight {
@@ -111,35 +83,22 @@
   left: 30%;
   border-radius: 15px;
 
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
 }
 
 .nine {
   top: 53%;
   left: 55%;
+  background-color: rgb(43, 44, 46);
 
   border-radius: 15px;
-
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
 }
 
 .ten {
   bottom: 0;
   left: 40%;
-  background-color: #ffdee9;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-color: rgb(43, 44, 46);
+
   border-radius: 15px;
 }
 
@@ -155,6 +114,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(43, 44, 46, 0.626);
 }
 
 .boxx {
@@ -164,6 +124,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(43, 44, 46, 0.626);
 }
 
 .css {

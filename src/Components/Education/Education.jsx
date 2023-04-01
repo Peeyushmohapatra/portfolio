@@ -9,6 +9,9 @@ function Education() {
             <div className="institute">
               <li className="upperListInstituteName">Institute Name</li>
             </div>
+            <div className="qualification">
+              <li className="upperListInstituteName">Qualification</li>
+            </div>
             <div className="board">
               <li className="upperListInstituteName">Board</li>
             </div>
@@ -26,6 +29,9 @@ function Education() {
               <li className="instituteName">HI-TECH INSTITUTE OF TECHNOLOGY</li>
             </div>
             <div className="board mainContainer">
+              <li className="quali">B-Tech in ME</li>
+            </div>
+            <div className="board mainContainer">
               <li>BPUT</li>
             </div>
             <div className="percentage mainContainer">
@@ -41,6 +47,9 @@ function Education() {
               <li className="instituteName">C.V.RAMAN INSTITUTE OF TECHNOLOGY</li>
             </div>
             <div className="board mainContainer">
+              <li className="quali">Diploma in ME</li>
+            </div>
+            <div className="board mainContainer">
               <li>SCTE & VT</li>
             </div>
             <div className="percentage mainContainer">
@@ -48,12 +57,15 @@ function Education() {
             </div>
 
             <div className="passout mainContainer">
-              <li>Passing Year</li>
+              <li>2018</li>
             </div>
             </div>
             <div className="higherEducation">
             <div className="institute mainContainer">
               <li className="instituteName">DOLPHIN INTERNATIONAL GROUP OF SCHOOL</li>
+            </div>
+            <div className="board mainContainer">
+              <li className="quali">Matriculation</li>
             </div>
             <div className="board mainContainer">
               <li>CBSE</li>
@@ -63,7 +75,7 @@ function Education() {
             </div>
 
             <div className="passout mainContainer">
-              <li>Passing Year</li>
+              <li>2014</li>
             </div>
             </div>
           </div>

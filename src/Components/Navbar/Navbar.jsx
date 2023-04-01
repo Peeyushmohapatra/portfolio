@@ -13,7 +13,7 @@ function Navbar() {
                 <Link to="/education"><li>EDUCATION</li></Link>
                 <Link to="/skills"><li>SKILLS</li></Link>
                 <Link to="/project"><li>PROJECTS</li></Link>
-                <Link to="/about"><li>ABOUT</li></Link>
+                <Link to="/contact"><li>CONTACT</li></Link>
                 
                 
                 
